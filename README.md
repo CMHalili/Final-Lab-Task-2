@@ -27,10 +27,10 @@
 # Screenshots
 # Query Statements:
 ## 1. Student Table:
- ![Image]()
+ ![Image](https://github.com/CMHalili/EDM-V3/blob/main/final%20lab%20task%20images/task%201.png)
 
 ## 2. Assignment Table:
-![Image]()
+![Image](https://github.com/CMHalili/EDM-V3/blob/main/final%20lab%20task%20images/task%202.png)
 
 ## 3. Submission Table:
 ![Image]()
