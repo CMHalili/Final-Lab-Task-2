@@ -1,6 +1,6 @@
-# Final-Lab-Task-2: Transforming ER into Relational tables
+# Final-Lab-Task-2
 
-# Step by Step Process
+# Step by Step Processs
 
 ## Step 1. Create the student table:
 * Define username as a VARCHAR (50)
@@ -17,5 +17,39 @@
 * Define submit date as a DATE and make it NOT NULL
 * Set a composite primary key using (username, shortname, version)
 * Add foreign key constraints referencing the student and assignment tables
+
+# Table Relationships
+
+
+
+
+
+# Screenshots
+# Query Statements:
+## 1. Student Table:
+ ![Image]()
+
+## 2. Assignment Table:
+![Image]()
+
+## 3. Submission Table:
+![Image]()
+
+# Table Structure
+## 1. Student Table:
+![Image]()
+
+## 2. Assignment Table:
+![Image]()
+
+## 3. Submission Table:
+![Image]()
+
+# Entity-Relationship Diagram (EER)
+![Image]()
+
+
+
+
 
 
