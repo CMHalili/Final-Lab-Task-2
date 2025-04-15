@@ -1,4 +1,6 @@
-# Final-Lab-Task-2
+# [Final-Lab-Task-2](https://github.com/CMHalili/EDM-V3/blob/main/final%20lab%20task%20images/Final%20Lab%20Task%202.docx)
+
+This portfolio highlights my understanding of MySQL database creation through a simplified student assignment submission system. It details the step-by-step development of tables for students, assignments, and submissions, using data types, relationships, and constraints such as primary keys and foreign keys to construct a functional relational schema.
 
 # Step by Step Processs
 
@@ -33,20 +35,20 @@
 ![Image](https://github.com/CMHalili/EDM-V3/blob/main/final%20lab%20task%20images/task%202.png)
 
 ## 3. Submission Table:
-![Image]()
+![Image](https://github.com/CMHalili/EDM-V3/blob/main/final%20lab%20task%20images/task%203.png)
 
 # Table Structure
 ## 1. Student Table:
-![Image]()
+![Image](https://github.com/CMHalili/EDM-V3/blob/main/final%20lab%20task%20images/task%201.1.png)
 
 ## 2. Assignment Table:
-![Image]()
+![Image](https://github.com/CMHalili/EDM-V3/blob/main/final%20lab%20task%20images/task%202.2.png)
 
 ## 3. Submission Table:
-![Image]()
+![Image](https://github.com/CMHalili/EDM-V3/blob/main/final%20lab%20task%20images/task%203.3.png)
 
 # Entity-Relationship Diagram (EER)
-![Image]()
+![Image](https://github.com/CMHalili/EDM-V3/blob/main/final%20lab%20task%20images/eer%20diagram.png)
 
 
 
