@@ -1,4 +1,4 @@
-# [Final-Lab-Task-2](https://github.com/CMHalili/EDM-V3/blob/main/final%20lab%20task%20images/Final%20Lab%20Task%202.docx)
+# Final-Lab-Task-2
 
 This portfolio highlights my understanding of MySQL database creation through a simplified student assignment submission system. It details the step-by-step development of tables for students, assignments, and submissions, using data types, relationships, and constraints such as primary keys and foreign keys to construct a functional relational schema.
 
