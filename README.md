@@ -23,26 +23,25 @@ This portfolio highlights my understanding of MySQL database creation through a 
 # Screenshots
 # Query Statements:
 ## 1. Student Table:
- ![Image](https://github.com/CMHalili/EDM-V3/blob/2d07709b9f61990ea1d09f38b801d52cc405f68e/final%20lab%20task%20images/task%201.png)
+ ![Image]()
 
 ## 2. Assignment Table:
-![Image](https://github.com/CMHalili/EDM-V3/blob/2d07709b9f61990ea1d09f38b801d52cc405f68e/final%20lab%20task%20images/task%202.png)
+![Image]()
 
 ## 3. Submission Table:
-![Image](https://github.com/CMHalili/EDM-V3/blob/2d07709b9f61990ea1d09f38b801d52cc405f68e/final%20lab%20task%20images/task%203.png)
+![Image]()
 
 # Table Structure
 ## 1. Student Table:
-![Image](https://github.com/CMHalili/EDM-V3/blob/2d07709b9f61990ea1d09f38b801d52cc405f68e/final%20lab%20task%20images/task%201.1.png)
+![Image]()
 
 ## 2. Assignment Table:
-![Image](https://github.com/CMHalili/EDM-V3/blob/2d07709b9f61990ea1d09f38b801d52cc405f68e/final%20lab%20task%20images/task%202.2.png)
+![Image]()
 
 ## 3. Submission Table:
-![Image](https://github.com/CMHalili/EDM-V3/blob/2d07709b9f61990ea1d09f38b801d52cc405f68e/final%20lab%20task%20images/task%203.3.png)
-
+![Image]()
 # Entity-Relationship Diagram (EER)
-![Image](https://github.com/CMHalili/EDM-V3/blob/2d07709b9f61990ea1d09f38b801d52cc405f68e/final%20lab%20task%20images/eer%20diagram.png)
+![Image]()
 
 
 
