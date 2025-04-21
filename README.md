@@ -31,25 +31,25 @@ This portfolio highlights my understanding of MySQL database creation through a 
 # Screenshots
 # Query Statements:
 ## 1. Student Table:
- ![Image]()
+ ![Image](https://github.com/CMHalili/EDM-V3/blob/main/Images/final%20lab%202%20task%201.png?raw=true)
 
 ## 2. Assignment Table:
-![Image]()
+![Image](https://github.com/CMHalili/EDM-V3/blob/main/Images/final%20lab%202%20task%202.png?raw=true)
 
 ## 3. Submission Table:
-![Image]()
+![Image](https://github.com/CMHalili/EDM-V3/blob/main/Images/final%20lab%202%20task%203.png?raw=true)
 
 # Table Structure
 ## 1. Student Table:
-![Image]()
+![Image](https://github.com/CMHalili/EDM-V3/blob/main/Images/final%20lab%202%20task%201.1.png?raw=true)
 
 ## 2. Assignment Table:
-![Image]()
+![Image](https://github.com/CMHalili/EDM-V3/blob/main/Images/final%20lab%202%20task%202.2.png?raw=true)
 
 ## 3. Submission Table:
-![Image]()
+![Image](https://github.com/CMHalili/EDM-V3/blob/main/Images/final%20lab%202%20task%203.3.png?raw=true)
 # Entity-Relationship Diagram (EER)
-![Image]()
+![Image](https://github.com/CMHalili/EDM-V3/blob/main/Images/final%20lab%202%20eer%20diagram.png?raw=true)
 
 
 
