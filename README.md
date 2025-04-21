@@ -20,6 +20,14 @@ This portfolio highlights my understanding of MySQL database creation through a 
 * Set a composite primary key using (username, shortname, version)
 * Add foreign key constraints referencing the student and assignment tables
 
+# Relationships:
+
+- Many-to-One with student: Each submission belongs to one student.
+
+- Many-to-One with assignment: Each submission is for one assignment.
+
+- This models a Many-to-Many relationship between students and assignments, with version tracking multiple submissions.
+
 # Screenshots
 # Query Statements:
 ## 1. Student Table:
