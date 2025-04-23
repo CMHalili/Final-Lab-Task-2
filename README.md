@@ -52,7 +52,7 @@ This portfolio highlights my understanding of MySQL database creation through a 
 ![Image](https://github.com/CMHalili/EDM-V3/blob/main/Images/final%20lab%202%20eer%20diagram.png?raw=true)
 
 # The Basis for the Creation of the Relational Tables
-![Image](https://github.com/user-attachments/assets/9e44d1fb-e24f-4b30-80b2-71604b21b9b5)
+![Image](https://github.com/user-attachments/assets/6bbb093d-9afb-4daf-82e7-a2c6ed3e3d1c)
 
 
 
