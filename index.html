@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Finals Lab Task 2 - MySQL Database Creation</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #1c1e21;
+      overflow-x: hidden;
+      background: url('https://img1.picmix.com/output/stamp/normal/0/7/8/0/2580870_8444e.gif') repeat;
+      background-size: 200px;
+    }
+
+    header {
+      padding: 3rem 2rem 1rem;
+      background-color: #00CDFEcc;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      color: #fff;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      text-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+      background-color: #00CDFEcc;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin: 2rem 0 1rem;
+      color: #1877f2;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .card p, .card a {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #1c1e21;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 1rem;
+    }
+
+    footer {
+      padding: 1rem 2rem;
+      font-size: 0.9rem;
+      background-color: #00CDFEcc;
+      color: #fff;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Finals Lab Task 2</h1>
+    <p>MySQL Database Creation</p>
+  </header>
+
+  <div style="max-width: 900px; margin: 2rem auto; padding: 0 2rem;">
+    <section>
+      <h2>Portfolio Overview</h2>
+      <div class="card">
+        <p>This portfolio highlights my understanding of MySQL database creation through a simplified student assignment submission system. It details the step-by-step development of tables for students, assignments, and submissions, using data types, relationships, and constraints such as primary keys and foreign keys to construct a functional relational schema.</p>
+      </div>
+
+      <h2>Step by Step Process</h2>
+      <div class="card">
+         <h4>Step 1. Create the student table:</h4>
+  <ul>
+    <li>Define username as a VARCHAR (50)</li>
+    <li>Set username as the Primary Key</li>
+  </ul>
+
+  <h4>Step 2. Create the assignment table:</h4>
+  <ul>
+    <li>Define shortname as a VARCHAR (50) and set it as the Primary Key</li>
+    <li>Define due date as a DATE and make it NOT NULL</li>
+    <li>Define url as VARCHAR (255), which can be null</li>
+  </ul>
+
+  <h4>Step 3. Create the submission table:</h4>
+  <ul>
+    <li>Define username and shortname as VARCHAR (50)</li>
+    <li>Define version as an INT</li>
+    <li>Define submit date as a DATE and make it NOT NULL</li>
+    <li>Set a composite primary key using (username, shortname, version)</li>
+    <li>Add foreign key constraints referencing the student and assignment tables</li>
+  </ul>
+
+  <h3>Table Relationships:</h3>
+  <ul>
+    <li>Many-to-One with student: Each submission belongs to one student.</li>
+    <li>Many-to-One with assignment: Each submission is for one assignment.</li>
+    <li>This models a Many-to-Many relationship between students and assignments, with version tracking multiple submissions.</li>
+  </ul>
+<div>
+  <h3>Screenshots</h3>
+  <h4>Query Statements:</h4>
+  <p><strong>1. Student Table:</strong><br>
+    <img src="https://github.com/CMHalili/EDM-V3/blob/main/Images/final%20lab%202%20task%201.png?raw=true" alt="Student Table Query">
+  </p>
+
+  <p><strong>2. Assignment Table:</strong><br>
+    <img src="https://github.com/CMHalili/EDM-V3/blob/main/Images/final%20lab%202%20task%202.png?raw=true" alt="Assignment Table Query">
+  </p>
+
+  <p><strong>3. Submission Table:</strong><br>
+    <img src="https://github.com/CMHalili/EDM-V3/blob/main/Images/final%20lab%202%20task%203.png?raw=true" alt="Submission Table Query">
+  </p>
+</div>
+<div>
+  <h4>Table Structure</h4>
+  <p><strong>1. Student Table:</strong><br>
+    <img src="https://github.com/CMHalili/EDM-V3/blob/main/Images/final%20lab%202%20task%201.1.png?raw=true" alt="Student Table Structure">
+  </p>
+
+  <p><strong>2. Assignment Table:</strong><br>
+    <img src="https://github.com/CMHalili/EDM-V3/blob/main/Images/final%20lab%202%20task%202.2.png?raw=true" alt="Assignment Table Structure">
+  </p>
+
+  <p><strong>3. Submission Table:</strong><br>
+    <img src="https://github.com/CMHalili/EDM-V3/blob/main/Images/final%20lab%202%20task%203.3.png?raw=true" alt="Submission Table Structure">
+  </p>
+  </div>
+<div>
+  <h3>Entity-Relationship Diagram (EER)</h3>
+  <img src="https://github.com/CMHalili/EDM-V3/blob/main/Images/final%20lab%202%20eer%20diagram.png?raw=true" alt="EER Diagram">
+</div>
+<div>
+<h3>The Basis for the Creation of the Relational Tables</h3>
+  <img src="https://github.com/user-attachments/assets/6bbb093d-9afb-4daf-82e7-a2c6ed3e3d1c" alt="Relational Tables Basis">
+</section>
+
+</div>
+ <footer>
+    <p>©Cassandra Halili | Class I102 | 2025</p>
+    <a href="https://github.com/CMHalili/Final-Lab-Task-2/blob/main/README.md" target="_blank" style="color:var(--neon); text-shadow: 0 0 6px var(--neon);">View Finals Lab Task 2 on Github</a>
+  </footer>
+
+</body>
+</html>
