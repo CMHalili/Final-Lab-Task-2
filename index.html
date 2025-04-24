@@ -34,7 +34,16 @@
       font-size: 1.1rem;
       margin-top: 0.5rem;
     }
-
+ .profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin-right: 1.5rem;
+  float: left;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
     section {
       max-width: 900px;
       margin: 0 auto;
@@ -103,12 +112,14 @@
 <body>
 
   <header>
-    <h1>Finals Lab Task 2</h1>
-    <p>MySQL Database Creation</p>
-  </header>
+  <img src="https://s5.ezgif.com/tmp/ezgif-572a3fe9665d5c.gif" alt="Cassandra Halili" class="profile-pic" />
+  <h1><strong>Finals Lab Task 2</strong></h1>
+  <p><strong>My SQL Database Creation</strong></p>
+  <p><strong>Using MySQL Workbench</strong></p>
+</header>
 
   <div style="max-width: 900px; margin: 2rem auto; padding: 0 2rem;">
-    <section>
+  <section style="overflow: auto;">
       <h2>Portfolio Overview</h2>
       <div class="card">
         <p>This portfolio highlights my understanding of MySQL database creation through a simplified student assignment submission system. It details the step-by-step development of tables for students, assignments, and submissions, using data types, relationships, and constraints such as primary keys and foreign keys to construct a functional relational schema.</p>
