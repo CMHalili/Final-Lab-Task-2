@@ -79,6 +79,25 @@
       color: #fff;
       text-align: center;
     }
+     /* Button design for download link */
+    .download-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 1rem;
+      font-weight: 600;
+      text-align: center;
+      text-decoration: none;
+      background-color: #1877f2;
+      color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .download-btn:hover {
+      background-color: #0f5db7;
+      transform: scale(1.05);
+    }
   </style>
 </head>
 <body>
@@ -93,6 +112,10 @@
       <h2>Portfolio Overview</h2>
       <div class="card">
         <p>This portfolio highlights my understanding of MySQL database creation through a simplified student assignment submission system. It details the step-by-step development of tables for students, assignments, and submissions, using data types, relationships, and constraints such as primary keys and foreign keys to construct a functional relational schema.</p>
+      <!-- Download Button -->
+        <a href="https://github.com/user-attachments/files/19892954/Final.Lab.Task.2.docx" class="download-btn" download>
+            Download The Word File
+        </a>
       </div>
 
       <h2>Step by Step Process</h2>
